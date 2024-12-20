@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active {
+    color: #2563eb; /* Faol sahifaga rang qo'yiladi */
+    font-weight: bold;
+  }
