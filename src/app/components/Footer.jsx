@@ -1,10 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
-// import footerShape from "@/assets/images/footer-shape.svg"
 import Link from 'next/link'
 import { HiArrowLongRight } from "react-icons/hi2";
 import contactShape from "../../assets/images/icon-log.svg"
-// import IconLogo from "@/assets/images/icon-log.svg"
 import { FaFacebook, FaTwitter, FaInstagram  } from "react-icons/fa";
 import { GrLinkedin } from "react-icons/gr";
 const Footer = () => {
@@ -12,7 +10,6 @@ const Footer = () => {
     <footer className='pt-[50px]'>
       <div className='container mx-auto justify-between flex items-center gap-[200px] mb-[64px]'>
         <div className='w-[450px]'>
-          {/* <Image src={footerShape} alt='shape'/> */}
           <strong className='mb-[40px] inline-block text-[48px] font-[600] leading-[58px]'>Let's make something special</strong>
           <p className='mb-[28px] text-[24px] font-[600] leading-[36px]'>Let's talk! 🤙 </p>
           <div className='flex  flex-col gap-2 w-[120px]'>
